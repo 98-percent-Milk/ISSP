@@ -1,0 +1,18 @@
+Property
+What does it look like?
+What is it made of? [MATERIAL]
+How big is it? [SIZE]
+What shape is it? [SHAPE]
+What color is it? [COLOR]
+What does it feel like? [TEXTURE]
+What does it smell like? [SCENT]
+What does it sound like? [SOUND]
+What does it taste like? [TASTE]
+What parts does it have? [PARTS]
+Where can you find it? [location]
+
+When do you use it? [TIME]
+Who uses it? [PERSON]
+How do you use it? [ACTION]
+What does it go with?   [PAIR]
+What does it make you think of? [FEELING]
