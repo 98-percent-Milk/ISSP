@@ -33,6 +33,19 @@ def test(category, word=''):
     syns = wn.synsets(word)
     for syn in syns:
         offset_check(syn, category, temp, word)
+    if not temp['not_found']:
+        print(f"{'Main Category':-^70}")
+        display(temp['first'][0])
+        print(f"{'Secondary Possible Category':-^70}")
+        for arr in temp['second']:
+            display(arr)
+
+
+def display(arr: list) -> None:
+    word = arr[0]
+    syn = arr[1]
+    category = arr[2]
+    print(f"{word:<30}{syn:<30}{category:<30}")
 
 
 def offset_check(syn: wn.synset, category: list, temp, word: str = ''):
@@ -42,13 +55,13 @@ def offset_check(syn: wn.synset, category: list, temp, word: str = ''):
         for s in parent:
             if s in syns:
                 if temp['not_found']:
-                    print(f"Main: {str(word).split('.')[0]:<30}{str(s):<30} {syns[s]}".format(
-                        temp["first"]))
-                    temp['first'].append((str(word), str(s), syns[s]))
+                    # print(f"Main: {str(word).split('.')[0]:<30}{str(s):<30} {syns[s]}".format(
+                    #     temp["first"]))
+                    temp['first'].append([str(word), str(s), str(syns[s])])
                     temp['not_found'] = False
-                print(f"Secondary: {str(word).split('.')[0]:<30}{str(s):<30} {syns[s]}".format(
-                    temp["first"]))
-                temp['second'].append((str(word), str(s), syns[s]))
+                # print(f"Secondary: {str(word).split('.')[0]:<30}{str(s):<30} {syns[s]}".format(
+                #     temp["first"]))
+                temp['second'].append([str(word), str(s), str(syns[s])])
 
 
 def check(word: str, data: dict) -> None:
