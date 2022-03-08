@@ -1,1 +1,0 @@
-Check with color if the word is color then it will always return color
