@@ -10,10 +10,10 @@ def main():
     word = 'cow'
     category = 'animal'
     test(word, category)
-    # noun(word, category=category)
-    # verb(word, category=category)
-    # adj(word, category=category)
-    # adv(word, category=category)
+    noun(word, category=category)
+    verb(word, category=category)
+    adj(word, category=category)
+    adv(word, category=category)
 
 
 def test(word: str, category: str = '', pos: str = '') -> None:
