@@ -1,24 +1,25 @@
-import re
+# import re
 from pprint import pprint
-from datamuse import Datamuse
+# import nltk
+# from datamuse import Datamuse
 from nltk.corpus import wordnet as wn
 from json import dumps, loads
 
 
 def main():
-    data = load_data("files/new.json")
-    r = True
-    while r:
-        test(data, r := input("Enter word: "))
-        if r == 'exit':
-            break
+    nltk.download("wordnet")
+    # data = load_data("files/new.json")
+    # r = True
+    # while r:
+    #     test(data, r := input("Enter word: "))
+    #     if r == 'exit':
+    #         break
 
     # # pprint(data)
     # # word = input("Enter word: ")
     # words = ['beans', 'bacon', 'bruschetta', 'bok_choy', 'bouquet', 'blanket']
     # for word in words:
     #     new_check(word, data)
-# wn.synset_from_pos_and_offset
 
 
 def test(category, word=''):
