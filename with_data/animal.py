@@ -1,10 +1,12 @@
 import enum
+import re
+from requests import get
+from bs4 import BeautifulSoup as bs
 from pprint import pprint
 from nltk.corpus import wordnet as wn
 from datamuse import Datamuse
 from json import dumps, loads
 from association import get_association
-
 API = Datamuse()
 # cat = 2121620, and bird = 1613294
 # python -W ignore (run without user warning)
@@ -14,21 +16,32 @@ API = Datamuse()
 def main():
     animals = [2121620, 1613294]
     # body_part = load_data('animal/body_part.json')
-    location = load_data('animal/location.json')
-    word = off_to_syn(animals[0])
-    test = words('cat_habitat')
-    for t in test:
-        check_location(t, location)
+    habitat = load_data('animal/habitat.json')
+    # test = words('cat_habitat')
+    # word = off_to_syn(animals[0])
+    check_location('cat')
 
 
-def check_location(word: str, location: dict) -> None:
-    syns = [x for x in wn.synsets(word)]
-    for syn in syns:
-        names = parents(syn, name=True)
-        bnames = list(location.keys())
-        if (temp := set(names).intersection(set(bnames))):
-            print(f"{syn.name():<25}{temp}")
+def check_location(word: str, habitat: dict) -> None:
+    raw = get_text(word)
+    habitats = list(habitat.keys())
+    for hab in habitats:
+        print()
+
+
+def get_text(word: str) -> str:
+    raw = ''
+    soup = get_soup(word)
+    for tag in soup.find(id="Habitats").next_elements:
+        if tag.name == 'p':
+            raw += tag.text
+        elif tag.name == 'h3':
             break
+    return raw
+
+
+def get_soup(word: str) -> bs:
+    return bs(get(f"https://en.wikipedia.org/wiki/{word}").text, "html.parser")
 
 
 def check_body_part(word: str, body_part: dict) -> None:
