@@ -1,0 +1,23 @@
+Forest -> tropical, temperate, and boreal
+Grasslands
+Deserts
+Mountains
+Polar
+Antarctic
+Aquatic -> freshwater, marine, and coastal
+Freshwater -> Rivers, lakes, ponds, streams
+Marine -> Oceans, and seas
+coastal
+Estuaries
+Coral reefs
+{
+    "structure.n.01": "habitat",
+    "biome.n.01": "habitat",
+    "land.n.04": "habitat",
+    "region.n.01": "habitat",
+    "habitat.n.01": "habitat",
+    "atmosphere.n.05": "habitat",
+    "geological_formation.n.01": "habitat",
+    "geographical_area.n.01": "habitat",
+    "vivarium.n.01": "habitat"
+}

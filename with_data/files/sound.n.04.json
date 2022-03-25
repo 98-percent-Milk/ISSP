@@ -1,0 +1,191 @@
+{
+    "sound.n.04": [
+        "beat.n.06",
+        "beep.n.01",
+        "bell.n.03",
+        "bong.n.01",
+        "buzz.n.01",
+        "chink.n.03",
+        "chirp.n.01",
+        "chirrup.n.01",
+        "chorus.n.01",
+        "click-clack.n.01",
+        "clip-clop.n.01",
+        "cry.n.05",
+        "ding.n.01",
+        "drip.n.02",
+        "drum.n.02",
+        "footfall.n.01",
+        "gargle.n.02",
+        "gurgle.n.01",
+        "jingle.n.01",
+        "knock.n.01",
+        "mutter.n.01",
+        "noise.n.01",
+        "paradiddle.n.01",
+        "pat.n.01",
+        "patter.n.02",
+        "peal.n.01",
+        "ping.n.02",
+        "plunk.n.01",
+        "pop.n.03",
+        "purr.n.01",
+        "quack.n.02",
+        "quaver.n.01",
+        "ring.n.06",
+        "rub-a-dub.n.01",
+        "sigh.n.02",
+        "skirl.n.01",
+        "song.n.02",
+        "strum.n.01",
+        "susurration.n.01",
+        "swish.n.01",
+        "tapping.n.01",
+        "throbbing.n.02",
+        "thrum.n.01",
+        "thump.n.01",
+        "thunk.n.01",
+        "tick.n.01",
+        "ting.n.01",
+        "toot.n.01",
+        "tootle.n.01",
+        "trample.n.01",
+        "twang.n.01",
+        "vibrato.n.01",
+        "voice.n.03",
+        "vroom.n.01",
+        "whack.n.01",
+        "whir.n.01",
+        "whistle.n.01",
+        "whiz.n.02",
+        "zing.n.01",
+        "zizz.n.01"
+    ],
+    "bell.n.03": [
+        "angelus_bell.n.01",
+        "knell.n.01"
+    ],
+    "chirp.n.01": [
+        "tweet.n.01"
+    ],
+    "click-clack.n.01": [
+        "clickety-clack.n.01"
+    ],
+    "cry.n.05": [
+        "baa.n.01",
+        "bark.n.04",
+        "bay.n.02",
+        "bleat.n.01",
+        "bray.n.01",
+        "cackle.n.01",
+        "caterwaul.n.01",
+        "caw.n.01",
+        "cheep.n.01",
+        "cluck.n.01",
+        "coo.n.01",
+        "crow.n.02",
+        "gobble.n.01",
+        "growl.n.01",
+        "honk.n.01",
+        "howl.n.02",
+        "meow.n.01",
+        "moo.n.01",
+        "neigh.n.01",
+        "roar.n.03",
+        "yip.n.01"
+    ],
+    "footfall.n.01": [
+        "tramp.n.04"
+    ],
+    "noise.n.01": [
+        "bang.n.02",
+        "banging.n.01",
+        "bark.n.02",
+        "blare.n.01",
+        "boom.n.01",
+        "chatter.n.02",
+        "chatter.n.03",
+        "chug.n.01",
+        "clack.n.01",
+        "clang.n.01",
+        "clatter.n.01",
+        "crack.n.04",
+        "crackle.n.01",
+        "creak.n.01",
+        "crunch.n.01",
+        "ding-dong.n.01",
+        "explosion.n.04",
+        "grate.n.02",
+        "grinding.n.02",
+        "grunt.n.01",
+        "hiss.n.01",
+        "howl.n.03",
+        "hubbub.n.01",
+        "hum.n.03",
+        "pant.n.01",
+        "plonk.n.02",
+        "plop.n.01",
+        "plump.n.01",
+        "racket.n.01",
+        "rattle.n.01",
+        "report.n.04",
+        "rhonchus.n.01",
+        "rumble.n.01",
+        "rustle.n.01",
+        "scrape.n.01",
+        "screech.n.01",
+        "scrunch.n.01",
+        "shrilling.n.01",
+        "sizzle.n.01",
+        "slam.n.02",
+        "snap.n.05",
+        "snore.n.01",
+        "spatter.n.01",
+        "splash.n.01",
+        "squawk.n.01",
+        "squeak.n.01",
+        "squish.n.01",
+        "stridulation.n.01",
+        "swoosh.n.01",
+        "thunder.n.02"
+    ],
+    "pat.n.01": [
+        "pitter-patter.n.01"
+    ],
+    "ring.n.06": [
+        "bell_ringing.n.01"
+    ],
+    "tapping.n.01": [
+        "rat-a-tat-tat.n.01"
+    ],
+    "tick.n.01": [
+        "ticktock.n.01"
+    ],
+    "vibrato.n.01": [
+        "tremolo.n.02"
+    ],
+    "bark.n.04": [
+        "bow-wow.n.01"
+    ],
+    "crow.n.02": [
+        "cock-a-doodle-doo.n.01"
+    ],
+    "bang.n.02": [
+        "water_hammer.n.01"
+    ],
+    "crackle.n.01": [
+        "decrepitation.n.01"
+    ],
+    "howl.n.03": [
+        "squeal.n.01"
+    ],
+    "rattle.n.01": [
+        "crepitation_rale.n.01"
+    ],
+    "splash.n.01": [
+        "splat.n.01"
+    ],
+    "thunder.n.02": [
+        "thunderclap.n.01"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "animal": {
+        "cry.n.05": "sound",
+        "animal_skin.n.01": "skin",
+        "animal_material.n.01": "material_derived_from_animals",
+        "animal_fiber.n.01": "product",
+        "body_part.n.01": "body_part",
+        "extremity.n.01": "body_part",
+        "animal_foot.n.01": "animal_leg_part",
+        "animal_oil.n.01": "oil_derived_from_animals",
+        "animal_tissue.n.01": "animal_body_part",
+        "domestic_animal.n.01": "dometic animal"
+    }
+}

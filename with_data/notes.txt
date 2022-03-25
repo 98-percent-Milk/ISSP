@@ -1,0 +1,2 @@
+lexname = noun.animal and synset('body_part.n.01') -> animal body part /maybe
+where is it found -> noun.object, noun.location

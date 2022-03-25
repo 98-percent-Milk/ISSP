@@ -1,0 +1,18 @@
+{
+    "animal_sub": {
+        "natural_object.n.01": "live",
+        "geographical_area.n.01": "live",
+        "structure.n.01": "live",
+        "region.n.01": "live",
+        "habitat.n.01": "live",
+        "cry.n.05": "animal sound",
+        "extremity.n.01": "animal body part",
+        "animal_foot.n.01": "animal body feet",
+        "process.n.05": "animal body part",
+        "mouth.n.02": "animal body mouth",
+        "animal_skin.n.01": "animal body skin"
+    },
+    "animal": {
+        "body_part.n.01": "animal body part"
+    }
+}
